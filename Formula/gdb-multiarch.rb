@@ -1,11 +1,13 @@
 class GdbMultiarch < Formula
   desc "The GNU Debugger with multi-architecture support"
   homepage "https://www.gnu.org/software/gdb/"
-  url "https://ftp.gnu.org/gnu/gdb/gdb-15.1.tar.xz"
-  sha256 "38254eacd4572134bca9c5a5aa4d4ca564cbbd30c369d881f733fb6b903354f2"
+  # url "https://ftp.gnu.org/gnu/gdb/gdb-15.1.tar.xz"
+  url "https://ftp.gnu.org/gnu/gdb/gdb-15.2.tar.xz"
+  # sha256 "38254eacd4572134bca9c5a5aa4d4ca564cbbd30c369d881f733fb6b903354f2"
+  sha256 "83350ccd35b5b5a0cba6b334c41294ea968158c573940904f00b92f76345314d"
 
   depends_on "pkg-config" => :build
-  depends_on "python@3.11"
+  depends_on "python@3.13"
   depends_on "gettext"
   depends_on "gmp"
   depends_on "mpfr"
