@@ -8,11 +8,11 @@ ARC600, A6, ARC601, ARC700, A7, ARCv2, EM, HS, arm, armv2, armv2a, armv3, armv3m
 
 You can install it like so:
 ```
-brew tap RetroReversing/gdb-multiarch
+brew tap n-WN/gdb-multiarch
 brew install gdb-multiarch
 ```
 
 You can use it like so:
 ```
-/usr/local/Cellar/gdb-multiarch/15.1/bin/gdb-multiarch
+/usr/local/Cellar/gdb-multiarch/15.2/bin/gdb-multiarch
 ```
