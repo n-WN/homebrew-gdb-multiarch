@@ -1,4 +1,7 @@
 # GDB Multiarch for MacOSX
+
+> Not supported on ARM macOS
+
 GDB compiled with all targets enabled, this is useful for debugging console games through a GDB emulator interface.
 
 This gives you the following architectures:
